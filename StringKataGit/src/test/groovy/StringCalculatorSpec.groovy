@@ -22,6 +22,8 @@ class StringCalculatorSpec extends Specification{
 		input		|		expectedResult
 		""			|		0
 		null		|		0
+		"1"			| 		1	
+		"1,2"		|		3	
 		
 	}
 
