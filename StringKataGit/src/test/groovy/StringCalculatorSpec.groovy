@@ -24,6 +24,7 @@ class StringCalculatorSpec extends Specification{
 		null		|		0
 		"1"			| 		1	
 		"1,2"		|		3	
+		"1\n2,3"	|		6
 		
 	}
 
